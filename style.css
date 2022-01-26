@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: #000A52;
+	text-align: right;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: gold;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: gold;
+}
+.active, .menu-bar ul li:hover{
+	background-color: #001FFF;
+	border-radius: 3px;
+}
+.menu-bar .fa{
+	margin-left: 8px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #000A52;
+	margin-top: 15px;
+	margin-left: -15px;
+	font-size: 12px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 100px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #001FFF;
+}
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.logo p{
+	float: left;
+	color: gold;
+	text-transform: uppercase;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.gif1{
+	margin: 10%;
+	float: left;
+	border: 10px solid;
+	border-color: #C7B72F;
+	border-collapse: collapse;
+}
+.gif2{
+	margin: 10%;
+	float: right;
+	border: 10px solid;
+	border-color: #C7B72F;
+	border-collapse: collapse;
+}
+.music1{
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 50%;
+}
+.music1 p{
+	font-size: 17px;
+	padding-left: 50px;
+}
+.movie1{
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+}
+.movie1 p{
+	font-size: 17px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.game1{
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+}
+.game1 p{
+	font-size: 17px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.about1{
+	width: 30%;
+	padding-top: 10%;
+	margin-left: 10%;
+}
+.about1 p{
+	font-size: 25px;
+	color: whitesmoke;
+}
+.about1 h1{
+	font-size: 40px;
+	color: gold;
+}
+.contact1{
+	width: 50%;
+	padding-top: 10%;
+	margin-left: 10%;
+}
+.contact1 h1{
+	font-size: 40px;
+	color: gold;
+}
+.contact1 p{
+	font-size: 20px;
+	color: whitesmoke;
+}
+.website-manager p{
+	float: left;
+	padding-left: 37%;
+	padding-top: 2%;
+	color: white;
+	font-size: 18px;
+}
